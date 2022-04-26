@@ -1,0 +1,27 @@
+<!-- Q.8 Write a program to find largest number from three number using javascript -->
+<!DOCTYPE html>
+
+<head>
+    <title>js</title>
+</head>
+
+<body>
+    <script>
+        function maxNum(x, y, z) {
+            max = 0;
+            if (x > y) {
+                max = x;
+            } else {
+                max = y;
+            }
+            if (z > max) {
+                max = z;
+            }
+            return max;
+        }
+        console.log(maxNum(1, 3, 4));
+
+    </script>
+</body>
+
+</html>
