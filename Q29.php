@@ -2,6 +2,7 @@
 a) ascending order sort by value
 b) ascending order sort by Key -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

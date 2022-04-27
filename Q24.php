@@ -1,5 +1,6 @@
 <!-- Write a program in PHP to display the number in reverse order -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

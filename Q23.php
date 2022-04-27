@@ -1,5 +1,6 @@
 <!-- Write a program in PHP to display the first n terms of Fibonacci series -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

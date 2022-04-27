@@ -1,6 +1,7 @@
 <!-- Write a PHP program to send data from one form to another using GET, POST and REQUEST methods. -->
 <!-- Write a PHP program to create cookies?  -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

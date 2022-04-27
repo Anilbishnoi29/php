@@ -1,5 +1,6 @@
 <!-- Write a PHP program to find whether a given year is a leap year or not.  -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

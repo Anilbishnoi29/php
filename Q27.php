@@ -1,5 +1,6 @@
 <!-- Write a PHP function to reverse a string. -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

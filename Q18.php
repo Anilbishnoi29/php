@@ -1,5 +1,6 @@
 <!-- Write a PHP program to check find Largest between 3 given numbers.  -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>js</title>

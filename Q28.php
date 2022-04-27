@@ -1,5 +1,6 @@
 <!-- Write a PHP program to perform basic file operations? $x=getenv(“ipaddress”)  -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

@@ -1,5 +1,6 @@
 <!-- Write a PHP program to print alphabet pattern 'A'.  -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

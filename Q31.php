@@ -1,5 +1,6 @@
 <!-- Write a PHP program to create cookies?  -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

@@ -1,5 +1,6 @@
 <!-- Write a PHP program to determine whether a given number is prime or not -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

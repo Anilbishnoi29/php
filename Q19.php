@@ -1,5 +1,6 @@
 <!--Write a PHP program to accept two integers and check whether they are equal or not   -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>

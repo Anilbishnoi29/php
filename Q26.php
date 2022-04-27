@@ -1,5 +1,6 @@
 <!-- Create a script to construct the following pattern, using nested for loop    -->
 <!DOCTYPE html>
+<html>
 
 <head>
     <title>php</title>
