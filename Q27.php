@@ -1,3 +1,4 @@
+<!-- Write a PHP function to reverse a string. -->
 <!DOCTYPE html>
 
 <head>
@@ -6,21 +7,13 @@
 
 <body>
     <?php
-    $cookie_name = "Name";
-    $cookie_value = "Rohit Singh";
-    setcookie($cookie_name, $cookie_value, time() + (86400), "/"); // 86400s = 1 day
+    $string = "HELLO";
+    $length = strlen($string);
+    for ($i = ($length - 1); $i >= 0; $i--) {
+        echo $string[$i];
+    }
     ?>
-    <html>
 
-    <body>
+</body>
 
-        <?php
-        $myfile = fopen("demo.txt", "w") or die("Unable to open file!");
-        $txt = "Hello world\n";
-        fwrite($myfile, $txt);
-        fclose($myfile);
-        ?>
-
-    </body>
-
-    </html>
+</html>

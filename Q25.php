@@ -1,4 +1,4 @@
-<!-- Write a PHP program to create cookies?  -->
+<!-- Write a PHP program to print alphabet pattern 'A'.  -->
 <!DOCTYPE html>
 
 <head>
@@ -7,23 +7,19 @@
 
 <body>
     <?php
-    $cookie_name = "Name";
-    $cookie_value = "Rohit Singh";
-    setcookie($cookie_name, $cookie_value, time() + (86400), "/"); // 86400s = 1 day
-    ?>
-    <html>
-
-    <body>
-
-        <?php
-        if (!isset($_COOKIE[$cookie_name])) {
-            echo "Cookie named '" . $cookie_name . "' is not set!";
-        } else {
-            echo "Cookie '" . $cookie_name . "' is set!<br>";
-            echo "Value is: " . $_COOKIE[$cookie_name];
+    echo "<pre>";
+    for ($row = 0; $row <= 10; $row++) {
+        for ($column = 0; $column <= 10; $column++) {
+            if ((($column == 1 or $column == 10) and $row != 0) or (($row == 0 or $row == 5) and ($column > 1 and $column < 10))) {
+                echo "*";
+            } else {
+                echo "&nbsp;";
+            }
         }
-        ?>
+        echo "<br>";
+    }
+    echo "</pre>";
+    ?>
+</body>
 
-    </body>
-
-    </html>
+</html>

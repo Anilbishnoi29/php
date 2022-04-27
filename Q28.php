@@ -10,16 +10,11 @@
     $cookie_name = "Name";
     $cookie_value = "Rohit Singh";
     setcookie($cookie_name, $cookie_value, time() + (86400), "/"); // 86400s = 1 day
+
+    $ipaddress = getenv("REMOTE_ADDR");
+    echo "Your IP Address is " . $ipaddress;
     ?>
-    <html>
 
-    <body>
+</body>
 
-        <?php
-        $ipaddress = getenv("REMOTE_ADDR");
-        echo "Your IP Address is " . $ipaddress;
-        ?>
-
-    </body>
-
-    </html>
+</html>
